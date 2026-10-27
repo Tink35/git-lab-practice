@@ -1,4 +1,4 @@
-print("=== SUPER CALCULATOR ===")
+int("=== CALCULATOR V2 ===")
 def multiply(a, b):
     """Docstring for multiply function"""
 return a * b
