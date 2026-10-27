@@ -1,3 +1,4 @@
+print("=== SUPER CALCULATOR ===")
 def multiply(a, b):
     """Docstring for multiply function"""
 return a * b
