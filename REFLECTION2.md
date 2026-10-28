@@ -8,5 +8,8 @@ Batching is important so as to not overwhelm the person with individual notifica
 
 3. How do Branch Protection Rules prevent accidental production breakage?
 
-4. When a remote conflict occurs in a PR, why is it better to merge origin/main into your feature branch
-locally rather than forcing a push?
+Branch protection rules allow for stop points, so that the rest of the team can review code before it's commited to the main branch. This forces the team to double check code before finally commiting it.
+
+4. When a remote conflict occurs in a PR, why is it better to merge origin/main into your feature branch locally rather than forcing a push?
+
+It's better to merge origin/main into your feature branch so that you can properly review the differences. If you force a push, it might be rejected or create conflicts with existing main branch code.
